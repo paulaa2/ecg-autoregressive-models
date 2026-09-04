@@ -23,15 +23,24 @@ Lab assignment for the APRNS course exploring autoregressive architectures for t
 
 ## Key Notebooks
 
-| Notebook | Description |
-|----------|-------------|
-| `01-ModelosAutoregresivos-colab_original.ipynb` | Course reference material |
-| `ejercicio_entregable.ipynb` | Main submission notebook |
-| `final.ipynb` | Final trained model and evaluation |
+```
+APRNS-Lab-8/
+├── notebooks/                                  # Definite & clean notebooks
+│   ├── ecg_autoregressive_models.ipynb         # [DEFINITIVE] Complete 200-epoch training, 6-config grid search & anomaly detection
+│   ├── ecg_baseline_100epochs.ipynb            # Baseline 100-epoch training run
+│   └── lab_reference_template.ipynb            # Original course reference material
+├── archive/                                    # Obsolete / non-definitive drafts
+│   ├── troubleshooting_draft.ipynb             # Incomplete draft with troubleshooting notes
+│   ├── experiment_draft.ipynb                  # Secondary experiment notebook
+│   ├── scratch_aaaaaaa.ipynb                   # Scratch run
+│   └── scratch_aaaaaaachus.ipynb               # Scratch run
+├── README.md                                   # Project documentation
+└── .gitignore                                  # Git configuration
+```
 
 ## How to Run
 
-Open `ejercicio_entregable.ipynb` or `final.ipynb` in Jupyter and run cells sequentially. GPU recommended for training.
+Open `notebooks/ecg_autoregressive_models.ipynb` in Jupyter/Colab and run cells sequentially. GPU recommended for training.
 
 ## Author
 
